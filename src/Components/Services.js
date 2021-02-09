@@ -1,4 +1,5 @@
 import React from "react";
+import '../Styles/dist/Services.css';
 
 function Services(){
     return(

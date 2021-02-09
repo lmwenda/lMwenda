@@ -1,0 +1,6 @@
+@import './GlobalFunctions';
+@import './Variables';
+
+.contact-container{
+    @include contact-layout-space($primaryColor, #fff)
+}

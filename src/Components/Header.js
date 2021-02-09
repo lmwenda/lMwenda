@@ -1,5 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import '../Styles/dist/Header.css';
+
+export function Button(){
+    const [ toggle, setToggle ] = useState(false);
+    return(
+        <div>
+
+        </div>
+    );
+}
 
 class Header extends Component{
     state = { clicked: false }

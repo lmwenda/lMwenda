@@ -1,0 +1,6 @@
+@import './GlobalFunctions';
+@import './Variables';
+
+.footer-container{
+    @include footer-layout-space(#fff, $primaryColor);
+}
