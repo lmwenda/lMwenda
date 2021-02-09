@@ -22,9 +22,6 @@ class Header extends Component{
             <div className="header-container">
                 <nav className="nav-bar">
                     <h1 className="title">✦ lMwenda</h1>
-                    <div className="menu-icon" onClick={this.handleClick}>
-                        <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}/>
-                    </div>
                     <ul className="nav">
                         <li><a style={{color: '#000'}} href="#upper-part">Home</a></li>
                         <li><a style={{color: '#000'}} href="#projects">Projects</a></li>

@@ -1,14 +1,36 @@
 @import './Variables.scss';
-
-@mixin layout-space {
-    background-color: #fff;
-    height: 630px;
-    color: $primaryColor;
-    text-align: center;
-    padding-top: 100px;
-    border-top: 30px;
-}
+@import './ResponsiveCards.scss';
+@import './GlobalFunctions.scss';
 
 .services-container{
-    @include layout-space();
+    @include service-layout-space();
+    .wrapper-2{
+        @media (min-width: 280px){
+            @include largePhone;
+        }
+
+        @media(min-width: 351px){
+            @include smallTablet-align;
+        }
+
+        @media(min-width: 768px){
+            @include tabletSize-align;
+        }
+
+        @media(min-width: 1024px){
+            @include laptopSize-align;
+        }
+
+        @media(min-width: 1900px){
+            @include monitorSize-align;
+        }
+
+        @media(min-width: 2250px){
+            @include fourFiftySize-align;
+        }
+
+        @media(min-width: 2560px){
+            @include fourSize-align;
+        }
+    }
 }

@@ -12,6 +12,9 @@
   justify-content: center;
   align-items: center;
 }
+.header-container .nav-bar .title {
+  font-size: 30px;
+}
 .header-container .nav-bar .title:hover {
   cursor: pointer;
 }

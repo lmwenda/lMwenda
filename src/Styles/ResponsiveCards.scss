@@ -1,0 +1,55 @@
+@mixin laptopSize-align {
+    display: grid;
+    width: 98%;
+    grid-gap: 5px;
+    /* Space between items */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@mixin tabletSize-align {
+    display: grid;
+    width: 98%;
+    grid-gap: 3px;
+    /* Space between items */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@mixin fourSize-align {
+    display: grid;
+    width: 78%;
+    grid-gap: 5px;
+    /* Space between items */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@mixin monitorSize-align{
+    display: grid;
+    width: 98%;
+    grid-gap: 5px;
+    /* Space between items */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@mixin largePhone {
+    display: grid;
+    width: 99%;
+    grid-gap: 5px;
+    /* Space between items */
+    grid-template-columns: 1fr;
+}
+
+@mixin smallTablet-align {
+    display: grid;
+    width: 99%;
+    grid-gap: 5px;
+    /* Space between items */
+    grid-template-columns: 1fr 1fr;
+}
+
+@mixin fourFiftySize-align {
+    display: grid;
+    width: 80%;
+    grid-gap: 5px;
+    /* Space between items */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
