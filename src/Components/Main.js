@@ -2,6 +2,7 @@ import React from "react";
 import { Spring } from 'react-spring/renderprops'
 
 import '../Styles/dist/Main.css';
+import Hero from "../Images/hero.svg";
 
 function Main(){
     return(
@@ -25,7 +26,7 @@ function Main(){
                     </div>
 
                     <div style={{props}} className="img">
-
+                        <img src={Hero} alt="" />
                     </div>
 
                 </div>
