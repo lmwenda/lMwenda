@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+.header-container {
+  position: fixed;
+  height: 10%;
+  padding: 0.6%;
+  width: 100%;
+  background-color: #fff;
+  color: #23286b;
+}
+.header-container .nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container .nav-bar ul {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 20px;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+.header-container .nav-bar ul li {
+  list-style: none;
+  list-style-type: none;
+}
+.header-container .nav-bar ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.header-container .nav-bar ul li .hire {
+  border: 1px solid #0682f6;
+  background-color: #0682f6;
+  padding: 20px;
+  color: #fff;
+}
+.header-container .nav-bar ul li:hover {
+  background-color: #6d76f7;
+  border-radius: 100px;
+  transition: all 0.4s ease-in;
+}

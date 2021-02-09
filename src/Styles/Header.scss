@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import './Variables';
+
+@mixin nav-alignment{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 20px;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.header-container{
+    position: fixed;
+    height: 10%;
+    padding: 0.6%;
+    width: 100%;
+    background-color: #fff;
+    color: $primaryColor;
+    .nav-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            @include nav-alignment();
+            li{
+                list-style: none;
+                list-style-type: none;
+                a{
+                    color: #000;
+                    text-decoration: none;
+                }
+
+                .hire{
+                    border: 1px solid $secondaryColor;
+                    background-color: $secondaryColor;
+                    padding: 20px;
+                    color: #fff;
+                }
+            }
+
+            li:hover{
+                background-color: #6d76f7;
+                border-radius: 100px;
+                transition: all 0.4s ease-in;
+            }
+        }
+    }
+}
