@@ -1,13 +1,23 @@
-.services-container {
+.services-container h1 {
+  text-align: center;
+}
+.services-container .container {
   background-color: #fff;
-  height: 900px;
+  height: 500px;
   color: #23286b;
   text-align: center;
   padding-top: 100px;
   border-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.services-container .container .wrapper {
+  margin-left: 21%;
 }
 @media (min-width: 280px) {
-  .services-container .wrapper-2 {
+  .services-container .container .wrapper {
     display: grid;
     width: 99%;
     grid-gap: 5px;
@@ -16,7 +26,7 @@
   }
 }
 @media (min-width: 351px) {
-  .services-container .wrapper-2 {
+  .services-container .container .wrapper {
     display: grid;
     width: 99%;
     grid-gap: 5px;
@@ -25,7 +35,7 @@
   }
 }
 @media (min-width: 768px) {
-  .services-container .wrapper-2 {
+  .services-container .container .wrapper {
     display: grid;
     width: 98%;
     grid-gap: 3px;
@@ -34,7 +44,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .services-container .wrapper-2 {
+  .services-container .container .wrapper {
     display: grid;
     width: 98%;
     grid-gap: 5px;
@@ -43,7 +53,7 @@
   }
 }
 @media (min-width: 1900px) {
-  .services-container .wrapper-2 {
+  .services-container .container .wrapper {
     display: grid;
     width: 98%;
     grid-gap: 5px;
@@ -52,7 +62,7 @@
   }
 }
 @media (min-width: 2250px) {
-  .services-container .wrapper-2 {
+  .services-container .container .wrapper {
     display: grid;
     width: 80%;
     grid-gap: 5px;
@@ -61,11 +71,72 @@
   }
 }
 @media (min-width: 2560px) {
-  .services-container .wrapper-2 {
+  .services-container .container .wrapper {
     display: grid;
     width: 78%;
     grid-gap: 5px;
     /* Space between items */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+}
+.services-container .container .wrapper .frontend-card {
+  height: 150%;
+  padding: 5%;
+  border-radius: 4px;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease-in-out;
+}
+.services-container .container .wrapper .frontend-card img {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 70%;
+  width: 95%;
+  transition: 0.6s ease-in-out;
+}
+.services-container .container .wrapper .frontend-card:hover {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 200%;
+}
+.services-container .container .wrapper .frontend-card:hover img {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 100px;
+}
+.services-container .container .wrapper .backend-card {
+  height: 150%;
+  padding: 5%;
+  border-radius: 4px;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease-in-out;
+}
+.services-container .container .wrapper .backend-card img {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 70%;
+  width: 95%;
+  transition: 0.6s ease-in-out;
+}
+.services-container .container .wrapper .backend-card:hover {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 200%;
+}
+.services-container .container .wrapper .backend-card:hover img {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 100px;
+}
+.services-container .container .wrapper .api-card {
+  height: 150%;
+  border-radius: 4px;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  transition: 0.6s ease-in-out;
+}
+.services-container .container .wrapper .api-card img {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 70%;
+  width: 95%;
+  transition: 0.6s ease-in-out;
+}
+.services-container .container .wrapper .api-card:hover {
+  height: 200%;
+}
+.services-container .container .wrapper .api-card:hover img {
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  height: 120px;
 }

@@ -25,7 +25,7 @@ class Header extends Component{
                     <ul className="nav">
                         <li><a style={{color: '#000'}} href="#upper-part">Home</a></li>
                         <li><a style={{color: '#000'}} href="#projects">Projects</a></li>
-                        <li><a style={{color: '#000'}} href="services">Services</a></li>
+                        <li><a style={{color: '#000'}} href="#services">Services</a></li>
                         <li><a className="hire" href="#contact-us">Hire me</a></li>
                     </ul>
                 </nav>

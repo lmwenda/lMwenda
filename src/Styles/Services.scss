@@ -3,8 +3,15 @@
 @import './GlobalFunctions.scss';
 
 .services-container{
+    h1{
+        text-align: center;
+    }
+
+   .container{
     @include service-layout-space();
-    .wrapper-2{
+    @include align-items();
+    .wrapper{
+        margin-left: 21%;
         @media (min-width: 280px){
             @include largePhone;
         }
@@ -32,5 +39,73 @@
         @media(min-width: 2560px){
             @include fourSize-align;
         }
+
+        .frontend-card{
+            height: 150%;
+            padding: 5%;
+            border-radius: 4px;
+            box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+            transition: 0.6s ease-in-out;
+            img{
+                box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+                height: 70%;
+                width: 95%;
+                transition: 0.6s ease-in-out;
+            }
+        }
+
+        .frontend-card:hover{
+            box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+            height: 200%;
+            img{
+                box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+                height: 100px;
+            }
+        }
+
+        .backend-card{
+            height: 150%;
+            padding: 5%;
+            border-radius: 4px;
+            box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+            transition: 0.6s ease-in-out;
+            img{
+                box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+                height: 70%;
+                width: 95%;
+                transition: 0.6s ease-in-out;
+            }
+        }
+
+        .backend-card:hover{
+            box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+            height: 200%;
+            img{
+                box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+                height: 100px;
+            }
+        }
+
+        .api-card{
+            height: 150%;
+            border-radius: 4px;
+            box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+            transition: 0.6s ease-in-out;
+            img{
+                box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+                height: 70%;
+                width: 95%;
+                transition: 0.6s ease-in-out;
+            }
+        }
+
+        .api-card:hover{
+            height: 200%;
+            img{
+                box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+                height: 120px;
+            }
+        }
     }
+   }
 }

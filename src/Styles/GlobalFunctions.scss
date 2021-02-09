@@ -9,7 +9,7 @@
 
 @mixin service-layout-space {
     background-color: #fff;
-    height: 900px;
+    height: 500px;
     color: $primaryColor;
     text-align: center;
     padding-top: 100px;
@@ -32,4 +32,11 @@
     text-align: center;
     padding-top: 100px;
     border-top: 30px;
+}
+
+@mixin align-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }

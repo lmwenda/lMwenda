@@ -2,9 +2,10 @@
 .header-container {
   position: fixed;
   height: 10%;
-  padding: 0.6%;
+  padding: 1%;
   width: 100%;
   background-color: #fff;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   color: #23286b;
 }
 .header-container .nav-bar {
