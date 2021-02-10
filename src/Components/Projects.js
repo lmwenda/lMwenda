@@ -41,7 +41,7 @@ function Projects(){
                             <Card.Body style={{color: '#000'}}>
                                 <Card.Title>Ecommerce Store</Card.Title>
                                 <Card.Text>
-                                I this in React, Redux and Django. I learnt how to add Payment
+                                I created this in React, Redux and Django. I learnt how to add Payment
                                 integrations, Redux and gathering real-time data. Gained a ton of experience. 
                                 <bold style={{fontWeight: 'bold'}}> In progress.</bold>
                                 </Card.Text>
