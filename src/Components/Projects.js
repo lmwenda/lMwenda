@@ -72,18 +72,17 @@ function Projects(){
                                     I built an Application so when you refresh the page it will generate a new User.
                                     It has Real-time loading with Asynchronous Data. View my Github to see it.
                                     </Card.Text>
-                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/User-API-Generator">View Project</a></Button>
+                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/user-generator-api">View Project</a></Button>
                                 </Card.Body>
                             </Card>
 
                             {/* Django Blog */}
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="holder.js/100px180" />
                                 <Card.Body style={{color: '#000'}}>
                                     <Card.Title>Django Blog</Card.Title>
                                     <Card.Text>
                                     I built a Blog with User Auth, Blogs is stored in a Sqlite3 DB and much more.
-                                    If you would like to see this view my Github.
+                                    If you would like to see this view my Github Repository.
                                     </Card.Text>
                                     <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Django-Blog">View Project</a></Button>
                                 </Card.Body>
@@ -91,12 +90,11 @@ function Projects(){
 
                             {/* Online Socket Server Desktop App */}
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="holder.js/100px180" />
-                                <Card.Body>
+                                <Card.Body style={{color: '#000'}}>
                                     <Card.Title>Online Desktop Chat App</Card.Title>
                                     <Card.Text>
                                     An Online Desktop Chat Application which I built in Java using Java Sockets 
-                                    and Java Swing. If you would like to run this Project view my Github Repo to see it.
+                                    and Java Swing. If you would like to run this view my Github to see it.
                                     </Card.Text>
                                     <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Online-Socket-Server-Application">View Project</a></Button>
                                 </Card.Body>
@@ -104,14 +102,14 @@ function Projects(){
 
                             {/* Notepad */}
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="holder.js/100px180" />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                <Card.Body style={{color: '#000'}}>
+                                    <Card.Title>Notepad Desktop App</Card.Title>
                                     <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                        I built a Notepad in Java using Advanced JavaSwing.
+                                        I wanted to test if I still remembered how to use them.
+                                        View my Github if you would like to run this. 
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Online-Notepad">View Project</a></Button>
                                 </Card.Body>
                             </Card>
                         </Row>

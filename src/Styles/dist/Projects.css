@@ -15,4 +15,5 @@
   margin-left: 6vw;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 1%;
 }
