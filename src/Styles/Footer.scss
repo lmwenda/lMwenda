@@ -3,4 +3,7 @@
 
 .footer-container{
     @include footer-layout-space(#fff, $primaryColor);
+    .text-align-center{
+        text-align: center;
+    }
 }
