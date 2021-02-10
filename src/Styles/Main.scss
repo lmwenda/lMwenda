@@ -1,5 +1,5 @@
 .container{
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 14%;
 	display: grid;
 	grid-template-columns: 2fr 2fr;
@@ -9,13 +9,13 @@
 
 .container{
     min-height: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: -80px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: -5%;
     .img{
         img{
             height: 100%;
-            width: 100%;
+            width: 110%;
         }
     }
     .content{

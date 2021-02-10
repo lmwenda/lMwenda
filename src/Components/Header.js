@@ -23,7 +23,7 @@ class Header extends Component{
                 <nav className="nav-bar">
                     <h1 className="title">✦ lMwenda</h1>
                     <ul className="nav">
-                        <li><a style={{color: '#000'}} href="#upper-part">Home</a></li>
+                        <li><a style={{color: 'rgb(6, 130, 246)'}} href="#upper-part">Home</a></li>
                         <li><a style={{color: '#000'}} href="#projects">Projects</a></li>
                         <li><a style={{color: '#000'}} href="#services">Services</a></li>
                         <li><a className="hire" href="#contact-us">Hire me</a></li>

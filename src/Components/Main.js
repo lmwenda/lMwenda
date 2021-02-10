@@ -12,16 +12,19 @@ function Main(){
                     <div style={{props}} className="container">
                     <div className="content">
                         <h1>lMwenda</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Suspendisse varius enim in eros elementum tristique.
-                            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-                            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
-                            Nunc ut sem vitae risus tristique posuere.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Suspendisse varius enim in eros elementum tristique.
-                            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-                            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
-                            Nunc ut sem vitae risus tristique posuere.</p>
+                        <p>
+                         Hey, I am a teenager who is studying Software Engineering!
+                         I've decided to freelance to gather money to help those in need and to 
+                         build up my future dream setup. 
+                         I've been studying (Self-Taught) Software Engineering for about a year now,
+                         and I've personally enjoyed Backend the most!
+                         Payment isn't a big deal I can take low payments. Just DM me on discord or email me
+                         to discuss!  
+                         <br />
+                         <bold style={{fontWeight: 'bold'}}> Discord: number 1 dev#1019</bold>
+                         <br />
+                         <bold style={{fontWeight: 'bold'}}>Email: Lukemwen@hotmail.com</bold>
+                        </p>
                         <button>Learn more</button>
                     </div>
 
