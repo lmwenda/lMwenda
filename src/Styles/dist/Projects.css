@@ -1,6 +1,6 @@
 .projects-container {
   background-color: #23286b;
-  height: 100vh;
+  height: 120vh;
   width: 98.7vw;
   color: #fff;
   text-align: center;
@@ -15,6 +15,4 @@
   margin-left: 6vw;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-row-gap: 1%;
-  grid-column-gap: 1%;
 }

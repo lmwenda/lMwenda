@@ -66,27 +66,26 @@ function Projects(){
                         <Row>
                             {/* User API Generator */}
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="holder.js/100px180" />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                <Card.Body style={{color: '#000'}}>
+                                    <Card.Title>User API Generator</Card.Title>
                                     <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    I built an Application so when you refresh the page it will generate a new User.
+                                    It has Real-time loading with Asynchronous Data. View my Github to see it.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/User-API-Generator">View Project</a></Button>
                                 </Card.Body>
                             </Card>
 
                             {/* Django Blog */}
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="holder.js/100px180" />
-                                <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                <Card.Body style={{color: '#000'}}>
+                                    <Card.Title>Django Blog</Card.Title>
                                     <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    I built a Blog with User Auth, Blogs is stored in a Sqlite3 DB and much more.
+                                    If you would like to see this view my Github.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Django-Blog">View Project</a></Button>
                                 </Card.Body>
                             </Card>
 
@@ -94,12 +93,12 @@ function Projects(){
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="holder.js/100px180" />
                                 <Card.Body>
-                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Title>Online Desktop Chat App</Card.Title>
                                     <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    An Online Desktop Chat Application which I built in Java using Java Sockets 
+                                    and Java Swing. If you would like to run this Project view my Github Repo to see it.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Online-Socket-Server-Application">View Project</a></Button>
                                 </Card.Body>
                             </Card>
 

@@ -44,6 +44,4 @@
 @mixin grid-items($items){
     display: grid;
     grid-template-rows: $items;
-    grid-row-gap: 1%;
-    grid-column-gap: 1%;
 }
