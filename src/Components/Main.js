@@ -28,7 +28,8 @@ function Main(){
                             <br />
                             <bold style={{fontWeight: 'bold'}}>Email: Lukemwen@hotmail.com</bold>
                             </p>
-                            <button>Learn more</button>
+                            <button><a style={{color: '#fff'}}
+                            href="https://www.fiverr.com/lmwenda">Learn more</a></button>
                         </div>
 
                         <div style={{props}} className="img">

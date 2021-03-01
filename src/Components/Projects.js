@@ -18,12 +18,12 @@ function Projects(){
                             {/* Chat Application */}
                             <Card style={{ width: '18rem' }}>
                                 <Card.Body>
-                                    <Card.Title style={{color: '#000'}}>Chat Application</Card.Title>
+                                    <Card.Title style={{color: '#000'}}>Shop API</Card.Title>
                                     <Card.Text style={{color: '#000'}}>
-                                    A Real Time Chat Application I built in ReactJS, SocketIO and ExpressJS.
-                                    It is also a deployed app so look at my Github Repository to view it.
+                                    Rendering out a Real-Time Shop API with ReactJS, Axios and Bootstrap.
+                                     I gained experience on using states and apis on the client-side.
                                     </Card.Text>
-                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Chat-Application">View Project</a></Button>
+                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Shop-API">View Project</a></Button>
                                 </Card.Body>
                             </Card>
 
@@ -94,10 +94,10 @@ function Projects(){
                                 {/* Online Socket Server Desktop App */}
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Body style={{color: '#000'}}>
-                                        <Card.Title>Online Desktop Chat App</Card.Title>
+                                        <Card.Title>Authenticate Login</Card.Title>
                                         <Card.Text>
-                                        An Online Desktop Chat Application which I built in Java using Java Sockets 
-                                        and Java Swing. If you would like to run this view my Github to see it.
+                                            An Authenticated Login I've built with ExpressJS, JWT Auth, Joi Validation and MongoDB.
+                                            I've learnt how to build a ton of stuff which I can't list here. View my Repo.
                                         </Card.Text>
                                         <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Online-Socket-Server-Application">View Project</a></Button>
                                     </Card.Body>
@@ -130,16 +130,17 @@ function Projects(){
                         <Col>
                             <Row>
                             
-                            <Card id="first" style={{ width: '18rem' }}>
+                            <Card style={{ width: '18rem' }}>
                                 <Card.Body>
-                                    <Card.Title style={{color: '#000'}}>Chat Application</Card.Title>
+                                    <Card.Title style={{color: '#000'}}>Shop API</Card.Title>
                                     <Card.Text style={{color: '#000'}}>
-                                    A Real Time Chat Application I built in ReactJS, SocketIO and ExpressJS.
-                                    It is also a deployed app so look at my Github Repository to view it.
+                                    Rendering out a Real-Time Shop API with ReactJS, Axios and Bootstrap.
+                                     I gained experience on using states and apis on the client-side.
                                     </Card.Text>
-                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Chat-Application">View Project</a></Button>
+                                    <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Shop-API">View Project</a></Button>
                                 </Card.Body>
                             </Card>
+
 
                             {/* React Data Analytics */}
                             <Card id="second" style={{ width: '18rem' }}>
@@ -208,10 +209,10 @@ function Projects(){
                                 {/* Online Socket Server Desktop App */}
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Body style={{color: '#000'}}>
-                                        <Card.Title>Online Desktop Chat App</Card.Title>
+                                        <Card.Title>Authenticate Login</Card.Title>
                                         <Card.Text>
-                                        An Online Desktop Chat Application which I built in Java using Java Sockets 
-                                        and Java Swing. If you would like to run this view my Github to see it.
+                                            An Authenticated Login I've built with ExpressJS, JWT Auth, Joi Validation and MongoDB.
+                                            I've learnt how to build a ton of stuff which I can't list here. View my Repo.
                                         </Card.Text>
                                         <Button variant="primary"><a style={{color: '#fff'}} href="https://github.com/lmwenda/Online-Socket-Server-Application">View Project</a></Button>
                                     </Card.Body>
