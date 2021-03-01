@@ -1,6 +1,17 @@
 @import './GlobalFunctions';
 @import './Variables';
 
-.contact-container{
+.phone-contact-container{
+    padding-right: 5px;
     @include contact-layout-space($primaryColor, #fff)
+}
+
+.contact-container{
+    background-color: $primaryColor;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    border-top: 30px;
+    width: 98.5vw;
 }
