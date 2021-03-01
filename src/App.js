@@ -3,7 +3,6 @@ import React from "react";
 import './App.css';
 
 import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 import Projects from "./Components/Projects";
 import Main from "./Components/Main";
 import Contact from "./Components/Contact";
@@ -32,10 +31,6 @@ function App() {
           <section id="contact-us">
             <Contact />
           </section>
-
-          <footer>
-            <Footer />
-          </footer>
 
     </div>
   );

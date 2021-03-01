@@ -3,7 +3,7 @@
     width: 98%;
     grid-gap: 5px;
     /* Space between items */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 @mixin tabletSize-align {
@@ -11,7 +11,7 @@
     width: 98%;
     grid-gap: 3px;
     /* Space between items */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 @mixin fourSize-align {
@@ -19,15 +19,16 @@
     width: 78%;
     grid-gap: 5px;
     /* Space between items */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 @mixin monitorSize-align{
     display: grid;
     width: 98%;
+    padding-left: 230px;
     grid-gap: 5px;
     /* Space between items */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 @mixin largePhone {
@@ -35,7 +36,7 @@
     width: 99%;
     grid-gap: 5px;
     /* Space between items */
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 @mixin smallTablet-align {
@@ -43,7 +44,7 @@
     width: 99%;
     grid-gap: 5px;
     /* Space between items */
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 @mixin fourFiftySize-align {
@@ -51,5 +52,5 @@
     width: 80%;
     grid-gap: 5px;
     /* Space between items */
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }

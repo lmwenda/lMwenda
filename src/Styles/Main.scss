@@ -1,3 +1,52 @@
+// PHONE VIEW
+
+#phone-wrapper{
+    .phone-container{
+        padding-top: 90px;
+        margin-left: 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5px;
+
+        .phone-img{
+            margin-top: 40px;
+            width: 495px;
+            img{
+                width: 450px;
+                margin-left: 5px;
+            }
+        }
+
+        .phone-content{
+            margin-left: 20px;
+            width: 470px;
+
+            h1{
+                margin-right: 300px;
+            }
+            button{
+                background-color: rgb(6, 130, 246);
+                border: 1px solid rgb(6, 130, 246);
+                font-size: 20px;
+                color: #fff;
+                padding: 10px;
+                bottom: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// NON PHONE VIEW
+
+#wrapper{
+    @media (min-width: 1600px) {
+        .container{
+            margin-left: 350px;
+        }
+    }
+}
+
 .container{
     padding-top: 130px;
     padding-bottom: 14%;
@@ -9,7 +58,7 @@
 
 .container{
     min-height: 150px;
-    margin-left: 6%;
+    margin-left: 75px;
     margin-right: 6%;
     margin-bottom: -5%;
     .img{
@@ -18,9 +67,10 @@
             width: 110%;
         }
     }
+
     .content{
         position: relative;
-        padding-left: 10px;
+        padding-left: 7%;
         padding-right: 10px;
         margin-left: 30px;
         h1{

@@ -1,7 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+.phone-header-container {
+  position: fixed;
+  height: 70px;
+  padding: 1%;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  color: #23286b;
+}
+.phone-header-container .phone-nav-bar {
+  display: flex;
+}
+.phone-header-container .phone-nav-bar .phone-title {
+  margin-top: 9px;
+  font-size: 30px;
+  text-align: left;
+  margin-right: 280px;
+}
+
 .header-container {
   position: fixed;
-  height: 10%;
+  height: 75px;
   padding: 1%;
   width: 100%;
   background-color: #fff;
@@ -37,8 +56,24 @@
   list-style-type: none;
 }
 .header-container .nav-bar ul li a {
+  transition: all 0.6s ease;
   color: #000;
   text-decoration: none;
+  font-size: 15px;
+}
+.header-container .nav-bar ul li a:hover {
+  transition: all 0.6s ease;
+  text-decoration: underline;
+  text-decoration-color: #0682f6;
+  text-decoration-thickness: 3px;
+  color: #0682f6;
+}
+.header-container .nav-bar ul li a:active {
+  transition: all 0.6s ease;
+  text-decoration: underline;
+  text-decoration-color: #0682f6;
+  text-decoration-thickness: 3px;
+  color: #0682f6;
 }
 .header-container .nav-bar ul li .hire {
   border: 1px solid #0682f6;

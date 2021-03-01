@@ -2,21 +2,117 @@
 @import './ResponsiveCards.scss';
 @import './Variables.scss';
 
+$backgroundColor: #23286b;
+
+
+// PHONE VIEW
+
+#phone-projects-container{
+    margin: 0;
+    background-color: $backgroundColor;
+    width: 140%;
+
+    #phone-wrapper{
+        h1{
+            padding-top: 80px;
+            margin-right: 115px;
+            color: #fff;
+        }
+        margin-left: 100px;
+        .phone-projects{
+            #first{
+                margin-bottom: 2px;
+            }
+
+            #second{
+                margin-bottom: 2px;
+            }
+
+            #third{
+                margin-bottom: 2px;
+            }
+
+            #fourth{
+                margin-bottom: 2px;
+            }
+
+            #fifth{
+                margin-bottom: 2px;
+            }
+
+            #sixth{
+                margin-bottom: 2px;
+            }
+
+            #last{
+                margin-top: 2px;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+
+// NON PHONE VIEW
+
 .projects-container{
-    background-color: #23286b;
-    height: 120vh;
+    background-color: $backgroundColor;
+    height: 1050px;
     width: 98.7vw;
     color: #fff;
     text-align: center;
     padding-top: 100px;
     border-top: 30px;
 
-    .wrapper{
+    #wrapper{
         padding-top: 30px;
+
+        @media (min-width: 1300px) {
+            .projects{
+                    margin-left: 200px;
+            }
+        }
+
         .projects{
             margin-top: 3vh;
-            margin-left: 6vw;
-            @include grid-items(1fr 1fr 1fr 1fr);
+            margin-left: 120px;
+
+            @media screen and (max-width: 669px){
+                .projects{
+                    margin-left: 18vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            @media(min-width: 1900px){
+                @include monitorSize-align;
+            }
+            @media (min-width: 280px){
+                @include largePhone;
+            }
+    
+            @media(min-width: 351px){
+                @include smallTablet-align;
+            }
+    
+            @media(min-width: 768px){
+                @include tabletSize-align;
+            }
+    
+            @media(min-width: 1024px){
+                @include laptopSize-align;
+            }
+    
+            @media(min-width: 2250px){
+                @include fourFiftySize-align;
+            }
+    
+            @media(min-width: 2560px){
+                @include fourSize-align;
+            }
         }
     }
 }

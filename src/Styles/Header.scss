@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 @import './Variables';
 
+
+// PHONE VIEW
+
+.phone-header-container{
+    position: fixed;
+    height: 70px;
+    padding: 1%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+    color: $primaryColor;
+    .phone-nav-bar{
+        display: flex;
+        .phone-title{
+            margin-top: 9px;
+            font-size: 30px;
+            text-align: left;
+            margin-right: 280px;
+        }
+    }
+}
+
+// LAPTOP+ VIEW
+
 @mixin nav-alignment{
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -23,12 +47,13 @@
 
 .header-container{
     position: fixed;
-    height: 10%;
+    height: 75px;
     padding: 1%;
     width: 100%;
     background-color: #fff;
     box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
     color: $primaryColor;
+
     .nav-bar{
         display: flex;
         justify-content: center;
@@ -53,8 +78,26 @@
                 list-style: none;
                 list-style-type: none;
                 a{
+                    transition: all 0.6s ease;
                     color: #000;
                     text-decoration: none;
+                    font-size: 15px;
+                }
+
+                a:hover{
+                    transition: all 0.6s ease;
+                    text-decoration: underline;
+                    text-decoration-color: rgb(6, 130, 246);
+                    text-decoration-thickness: 3px;
+                    color: rgb(6, 130, 246);
+                }
+
+                a:active{
+                    transition: all 0.6s ease;
+                    text-decoration: underline;
+                    text-decoration-color: rgb(6, 130, 246);
+                    text-decoration-thickness: 3px;
+                    color: rgb(6, 130, 246);
                 }
 
                 .hire{
