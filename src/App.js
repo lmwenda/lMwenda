@@ -9,6 +9,7 @@ import Contact from "./Components/Contact";
 import Services from "./Components/Services";
 
 function App() {
+  console.log("Deployed");
   return (
     <div className="App">
 
