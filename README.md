@@ -1,2 +1,2 @@
 # Portfolio
- My Portfolio. Almost done.
+ Finsished Portfolio. Currently Deploying.
