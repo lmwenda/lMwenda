@@ -1,8 +1,13 @@
-# Welcome to my Github Profile!!!
-I'm a Passionate and a Young Software Engineer. I like watching anime, playing games and going out to explore. If you need anything just contact me(please contact if you need a freelancer).
+# Hello, I'm Maetyu! <img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" alt="Waving hand animated gif" height="45" width="45" />
+     
+#### 💫 About Me :
+- 😄 Pronouns: He/His
+- 🔭 I’m currently building discord bots with Hikari[Lightbulb].
+- 🌱 I’m currently learning more about discord, twitter and slack bots.
+- 👯 I’m looking to collaborate on [discord] maetyu#1019.
+- 🤔 I’m looking for help with open-source projects.
+- 💬 Ask me about full-stack websites.
 
-https://portfolio-5aae2.web.app/
 
-https://www.fiverr.com/lmwenda &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-https://github.com/lmwenda &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-Discord: number 1 dev#1019 
+<img src="https://github-readme-stats.vercel.app/api?username=lmwenda&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515" />
+
