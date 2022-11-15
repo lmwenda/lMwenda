@@ -26,7 +26,7 @@ const Hero = () => {
 
             <div> 
               <p className='max-w-sm text-center text-darkGrayishBlue md:text-left'>
-                  I'm a young, passionate software engineer. I like watching anime, playing games and exploring new things. 
+                  I&apos;m a young, passionate software engineer. I like watching anime, playing games and exploring new things. 
               </p>
             </div>    
 
