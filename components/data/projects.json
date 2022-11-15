@@ -1,0 +1,57 @@
+{
+    "projects": [
+        {
+            "type": "Client",
+            "name": "Gossipa",
+            "description": "I've developed their Landing Page, I did not develop their footer.",
+            "link": "https://www.gossipa.co.uk/index.php"
+        },
+        {
+            "type": "Client - Ongoing",
+            "name": "RFT Security",
+            "description": "Developing their website, cannot be showed since it's still in development and disclosed for now"
+        },
+        {
+            "type": "Project",
+            "name": "Health Care",
+            "description": "Health Care Full Stack Application",
+            "link": "https://new-healthcare.vercel.app/"
+        },
+        {
+            "type": "Project",
+            "name": "Xanify",
+            "description": "Ecommerce Store Project",
+            "link": "https://xanify.vercel.app/"
+        },
+        {
+            "type": "Project",
+            "name": "Steilete",
+            "description": "HTML and TailwindCSS Landing Page",
+            "link": "https://steilete.web.app/"
+        },
+        {
+            "type": "Project",
+            "name": "Elenco",
+            "description": "SASS Productivity Project",
+            "link": "https://elenco.vercel.app/"
+        },
+        {
+            "type": "Client",
+            "name": "VincetheKids",
+            "description": "Developed his full website, going to be redone soon.",
+            "link": "https://vincethekids.vercel.app/"
+        },
+        {
+            "type": "Project",
+            "name": "Spotify Clone",
+            "description": "Spotify API used to develop this clone website",
+            "link": "https://spotify-clone-lmwenda.vercel.app/#"
+        },
+        {
+            "type": "Project",
+            "name": "Bored",
+            "description": "First NextJS Application I've created. If your bored always go on this website to find yourself tasks!",
+            "link": "https://boredtasks.vercel.app/"
+        }
+    ]
+}

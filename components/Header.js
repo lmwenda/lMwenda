@@ -52,23 +52,23 @@ const Header  = () => {
                     </a>
                 </Link>
 
+                <a href="#about" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-blue-700'>
+                    About
+                </a>
+              
                 <a href="#skills" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-blue-700'>
                     Skills
-                </a>
-
-                <a href="#projects" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-blue-700'>
-                    Projects
                 </a>
 
                 <a href="#services" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-blue-700'>
                     Services
                 </a>
+                
+                <a href="#projects" className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-blue-700'>
+                    Projects
+                </a>
 
-                <Link href='/contact'>
-                    <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black items-center justify-center hover:text-blue-700'>
-                        Contact
-                    </a>
-                </Link>
+
             </div>
             </motion.div>
         </nav>
