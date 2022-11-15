@@ -23,9 +23,7 @@ const About = () => {
 
             <div className="flex flex-col w-96 h-96 space-y-12">
                 <h1 className="text-center text-lg text-gray-600 font-semibold">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                I'm a young, passionate software engineer. I like watching anime, playing games and exploring new things. 
                 </h1>
                 <div className="flex flex-row space-x-4 justify-center items-center h-24 shadow-lg ">
                     <div>
