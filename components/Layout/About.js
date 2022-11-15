@@ -27,7 +27,7 @@ const About = () => {
                     labore et dolore magna aliqua. Ut enim ad minim veniam, 
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </h1>
-                <div className="flex flex-row space-x-4 justify-center items-center h-24 shadow-md p-3 ">
+                <div className="flex flex-row space-x-4 justify-center items-center h-24 shadow-lg ">
                     <div>
                         <h1 className="text-xl font-bold text-center text-gray-800">2+</h1>
                         <h2 className="text-lg text-gray-600">Years Experience</h2>
@@ -39,7 +39,7 @@ const About = () => {
                     </div>
 
                     <div>
-                        <h1 className="text-xl font-bold text-center text-gray-800">4+</h1>
+                        <h1 className="text-xl font-bold text-center text-gray-800">5+</h1>
                         <h2 className="text-lg text-gray-600">Satisfied Clients</h2>
                     </div>
                 </div>
