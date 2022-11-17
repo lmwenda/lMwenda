@@ -3,7 +3,7 @@ import React from "react";
 const ProgressBar = () => {
     return(
         <div className="w-full px-4 lg:w-5/12">
-            <h1 className="text-2xl text-gray-800 font-bold p-8">Frontend Developer</h1>
+            <h1 className="text-2xl text-gray-800 font-bold p-8 w-full whitespace-nowrap">Frontend Developer</h1>
             <div className="mb-8">
                 <h1>HTML</h1>
                 <div className="bg-gray-400 relative h-[10px] w-full rounded-2xl">

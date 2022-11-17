@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 const About = () => {
     return(
         <div
-        className='container flex flex-col items-center px-6 mx-auto mt-1 space-y-40 md:space-y-0 md:mt-20 md:space-x-40 md:flex-row'
+        className='container flex flex-col items-center px-6 mx-auto mx-3 space-y-40 md:space-y-0 md:mt-20 md:space-x-40 md:flex-row'
       >
           <motion.div 
-            className='md:w-1/2'
+            className='hidden md:flex md:w-1/2'
             animate={{ opacity: 1, y: [ 0, -50]}}
             transition={
               {
@@ -22,7 +22,7 @@ const About = () => {
           </motion.div>
 
             <div className="flex flex-col w-96 h-96 space-y-12">
-                <h1 className="text-center text-lg text-gray-600 font-semibold">
+                <h1 className="text-center text-xl text-gray-600 font-semibold md:text-lg">
                 I&apos;m a young, passionate software engineer. I like watching anime, playing games and exploring new things. 
                 </h1>
                 <div className="flex flex-row space-x-4 justify-center items-center h-24 shadow-lg ">
