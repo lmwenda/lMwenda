@@ -2,8 +2,8 @@
      
 ## 💫 About Me :
 - 😄 Pronouns: He/Him
-- 🔭 I’m currently building discord bots with Hikari[Lightbulb].
-- 🌱 I’m currently learning more about discord, twitter and slack bots.
+- 🔭 I’m currently building ~discord bots with Hikari[Lightbulb]~  C applications.
+- 🌱 I’m currently learning more about ~discord, twitter and slack bots~ Low Level Programming.
 - 👯 I’m looking to collaborate on [discord] maetyu#1019.
 - 🤔 I’m looking for help with open-source projects.
 - 💬 Ask me about full-stack websites.
